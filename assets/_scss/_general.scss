@@ -1,0 +1,11 @@
+// App-wide styles for high-level elements
+
+section {
+  @include outer-container;
+  padding:0 1em;
+  text-align:center;
+
+  @include large {
+    padding:0;
+  }
+}
